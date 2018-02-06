@@ -7,7 +7,7 @@
 
 import Foundation
 
-public extension UITextField {
+extension UITextField {
     
     private struct AssociatedKeys {
         static var fakeCaret = "fakeCaret"
