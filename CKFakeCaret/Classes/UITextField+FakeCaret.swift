@@ -31,9 +31,11 @@ extension UITextField {
     }
     
     public func removeFakeCaret() {
+        if fakeCaret != nil {
+            removeObserver(self, forKeyPath: "text")
+        }
         fakeCaret?.removeFromSuperview()
         fakeCaret = nil
-        removeObserver(self, forKeyPath: "text")
     }
 
     func getCursorPosition() -> CGFloat {
