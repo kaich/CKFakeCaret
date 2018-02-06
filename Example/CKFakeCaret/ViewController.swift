@@ -22,6 +22,10 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    deinit {
+        textField.removeFakeCaret()
+    }
 
     @IBAction func click(_ sender: Any) {
         textField.text = (textField.text ?? "") + "a"
