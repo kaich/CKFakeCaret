@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CKFakeCaret_Example' do
+  pod 'CKFakeCaret', :path => '../'
+
+  target 'CKFakeCaret_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
