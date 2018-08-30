@@ -18,7 +18,6 @@ public class CKFakeCaret: UIView {
         
         backgroundColor = UIColor.blue
         setupBottomCorner()
-        blink()
     }
     
     required public init?(coder aDecoder: NSCoder) {
@@ -45,4 +44,8 @@ public class CKFakeCaret: UIView {
             completion: { [weak self] _ in self?.alpha = 0.0 })
     }
     
+    public override func didMoveToSuperview() {
+        superview?.didMoveToSuperview()
+        blink()
+    }
 }
