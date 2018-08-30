@@ -76,9 +76,10 @@ extension UITextField {
     func setFakeCaret() {
         if fakeCaret == nil {
             fakeCaret = CKFakeCaret.create()
-            addSubview(fakeCaret!)
         }
         
+        addSubview(fakeCaret!)
+
         fakeCaret?.center = CGPoint(x: getCursorPosition(), y: self.bounds.height / 2)
     }
     
