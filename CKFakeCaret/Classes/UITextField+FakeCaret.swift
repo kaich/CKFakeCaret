@@ -65,7 +65,7 @@ extension UITextField {
     func getCursorPosition() -> CGFloat {
         let textRect = self.textRect(forBounds: self.bounds)
         
-        let fontAttributes: [NSAttributedStringKey : Any] = [NSAttributedStringKey.font: font as Any]
+        let fontAttributes: [NSAttributedString.Key : Any] = [NSAttributedString.Key.font: font as Any]
         if let text = text {
             let size = text.size(withAttributes: fontAttributes)
             return size.width + textRect.minX
