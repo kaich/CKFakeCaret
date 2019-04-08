@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CKFakeCaret'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CKFakeCaret.'
+  s.version          = '0.1.1'
+  s.summary          = 'A Fake Caret For UITextField.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A Fake Caret For UITextField. So You Can Custom Your TextField.
                        DESC
 
   s.homepage         = 'https://github.com/chengkai1853@163.com/CKFakeCaret'
@@ -26,17 +26,12 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chengkai1853@163.com' => 'chengkai1853@163.com' }
   s.source           = { :git => 'https://github.com/chengkai1853@163.com/CKFakeCaret.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CKFakeCaret/Classes/**/*'
+  s.source_files = 'CKFakeCaret/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'CKFakeCaret' => ['CKFakeCaret/Assets/*.png']
   # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
