@@ -9,3 +9,8 @@ target 'CKFakeCaret_Example' do
     
   end
 end
+
+
+target 'KeyboardExample' do
+  pod 'CKFakeCaret', :path => '../'
+end

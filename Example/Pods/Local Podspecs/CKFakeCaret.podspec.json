@@ -1,8 +1,8 @@
 {
   "name": "CKFakeCaret",
-  "version": "0.1.0",
-  "summary": "A short description of CKFakeCaret.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "A Fake Caret For UITextField.",
+  "description": "A Fake Caret For UITextField. So You Can Custom Your TextField.",
   "homepage": "https://github.com/chengkai1853@163.com/CKFakeCaret",
   "license": {
     "type": "MIT",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/chengkai1853@163.com/CKFakeCaret.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CKFakeCaret/Classes/**/*"
+  "swift_version": "4.2",
+  "source_files": "CKFakeCaret/Classes/**/*.swift"
 }

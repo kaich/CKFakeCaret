@@ -28,6 +28,8 @@ A Fake Caret For UITextField. So You Can Custom Your TextField.
   s.source           = { :git => 'https://github.com/chengkai1853@163.com/CKFakeCaret.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
+  
+  s.swift_version = '4.2'
 
   s.source_files = 'CKFakeCaret/Classes/**/*.swift'
   

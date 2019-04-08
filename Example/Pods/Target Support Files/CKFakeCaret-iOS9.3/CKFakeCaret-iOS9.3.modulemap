@@ -1,5 +1,5 @@
 framework module CKFakeCaret {
-  umbrella header "CKFakeCaret-umbrella.h"
+  umbrella header "CKFakeCaret-iOS9.3-umbrella.h"
 
   export *
   module * { export * }
